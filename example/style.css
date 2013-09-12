@@ -1,0 +1,30 @@
+body {
+  background-color: #eee;
+  color: #363636;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", Sans-serif;
+  font-weight: 400;
+
+}
+
+.wrapper {
+
+  width: 50%;
+  min-width: 300px;
+  margin: 5% auto;
+  background-color: #fff;
+  padding: 5% 5%;
+  border-radius: 3px;
+}
+
+canvas {
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 0px 0px 0px 0px !important;
+  margin: 5px
+}
+
+.clear {
+  clear: both;
+  padding: 3% 0;
+}
