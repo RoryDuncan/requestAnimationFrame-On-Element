@@ -60,10 +60,9 @@
     "el": null,
     set: function (el) {
 
-      this.el = el;
-      var element = document.getElementById("screen");
-      var parent = element.parentNode;
-      this._parent = parent;
+      this.el = document.getElementById(el);
+
+      this._parent = this.el.parentNode;
       this._parent.addEventListener("mousemove", window._requestAnimationFrameElement.bang);
     },
     unset: function () {
